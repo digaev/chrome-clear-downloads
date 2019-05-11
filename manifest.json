@@ -1,0 +1,31 @@
+{
+  "name": "Clear Downloads",
+  "version": "1.0",
+  "description": "Clear downloads in one click!",
+  "permissions": ["downloads", "storage"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "icons/16x16.png",
+      "32": "icons/32x32.png",
+      "48": "icons/48x48.png",
+      "128": "icons/128x128.png"
+    }
+  },
+  "author": "Nikolay Digaev",
+  "homepage_url": "https://github.com/digaev/chrome-clear-downloads",
+  "icons": {
+    "16": "icons/16x16.png",
+    "32": "icons/32x32.png",
+    "48": "icons/48x48.png",
+    "128": "icons/128x128.png"
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
+  },
+  "manifest_version": 2
+}
